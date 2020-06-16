@@ -1091,7 +1091,8 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			/* background-image: url("../../images/bg.jpg"); */
+			background-color: rgba(255, 2, 234, 0.486);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1224,11 +1225,14 @@
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 20rem;
+			height: 20rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-image: url(../../images/kw-main-logo.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 
 			#header .logo .icon:before {
@@ -1374,8 +1378,8 @@
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 20rem;
+				height: 20rem;
 				line-height: 4.75rem;
 			}
 
